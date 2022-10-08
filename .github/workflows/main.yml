@@ -28,5 +28,5 @@ jobs:
         with:
          java-version: '17'
       - name: executing Main.java
-        run: "java Main.java"
+        run: javac Main.java
 #       - run: javac Main.java
