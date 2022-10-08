@@ -37,4 +37,6 @@ jobs:
       - name: Setup Java JDK
         uses: actions/setup-java@v3.5.1
         with:
+          distribution: 'adopt'
           java-version: '17'
+          check-latest: true
