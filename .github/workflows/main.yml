@@ -27,5 +27,6 @@ jobs:
         uses: actions/setup-java@v3.5.1
         with:
          java-version: '17'
-      - run: java Main.java
+      - name: executing Main.java
+        run: "java Main.java"
 #       - run: javac Main.java
