@@ -40,3 +40,6 @@ jobs:
           distribution: 'adopt'
           java-version: '17'
           check-latest: true
+          
+      - name: Executing Main.java
+        run: java Main.java
